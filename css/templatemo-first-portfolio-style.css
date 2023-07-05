@@ -1,7 +1,13 @@
+
 @font-face {
-  font-family: zar;
-  src: url("/fonts/!F\ Zar\ Bold.ttf");
+  font-family: yekan;
+  font-style: normal;
+  src: url("/fonts/Yekan-Bakh-FaNum/OTF/YekanBakhFaNum-Bold.otf");
+  src: url("/fonts/Yekan-Bakh-FaNum/Webfonts/fonts/woff/YekanBakhFaNum-Bold.woff") format("woff"),
+    url("/fonts/Yekan-Bakh-FaNum/TTF/YekanBakhFaNum-Bold.ttf") format("ttf"),
+    url("/fonts/Yekan-Bakh-FaNum/Webfonts/fonts/woff2/YekanBakhFaNum-Bold.woff2") format("woff2");
 }
+
 /*
 
 TemplateMo 578 First Portfolio
@@ -23,6 +29,8 @@ https://templatemo.com/tm-578-first-portfolio
   --p-color:                      #717275;
   --border-color:                 #e9eaeb;
   --featured-border-color:        #727aab;
+
+  --body-font-family:             yekan;
 
 
   --h1-font-size:                 62px;
@@ -46,7 +54,7 @@ https://templatemo.com/tm-578-first-portfolio
 
 body {
     background: var(--white-color);
-    font-family: zar;
+    
 }
 
 
@@ -70,6 +78,7 @@ h5,
 h6 {
   font-weight: var(--font-weight-bold);
   letter-spacing: -1px;
+  
 }
 
 h1 {
