@@ -1,11 +1,9 @@
-
 @font-face {
-  font-family: yekan;
-  font-style: normal;
-  src: url("/fonts/Yekan-Bakh-FaNum/OTF/YekanBakhFaNum-Bold.otf");
-  src: url("/fonts/Yekan-Bakh-FaNum/Webfonts/fonts/woff/YekanBakhFaNum-Bold.woff") format("woff"),
-    url("/fonts/Yekan-Bakh-FaNum/TTF/YekanBakhFaNum-Bold.ttf") format("ttf"),
-    url("/fonts/Yekan-Bakh-FaNum/Webfonts/fonts/woff2/YekanBakhFaNum-Bold.woff2") format("woff2");
+  font-family: shabnam;
+  src: url("/fonts/Shabnam.Font.4.0.0_YasDL.com/Shabnam.eot");
+  src: url("/fonts/Shabnam.Font.4.0.0_YasDL.com/Shabnam.woff") format("woff"),
+    url("/fonts/Shabnam.Font.4.0.0_YasDL.com/Shabnam-Bold.ttf") format("ttf"),
+    url("/fonts/Shabnam.Font.4.0.0_YasDL.com/Shabnam.woff2") format("woff2");
 }
 
 /*
@@ -30,7 +28,7 @@ https://templatemo.com/tm-578-first-portfolio
   --border-color:                 #e9eaeb;
   --featured-border-color:        #727aab;
 
-  --body-font-family:             yekan;
+  --body-font-family:             shabnam;
 
 
   --h1-font-size:                 62px;
@@ -53,8 +51,7 @@ https://templatemo.com/tm-578-first-portfolio
 }
 
 body {
-    background: var(--white-color);
-    
+    background: var(--white-color);    
 }
 
 
@@ -621,9 +618,6 @@ strong {
   CLIENTS              
 -----------------------------------------*/
 
-.clients-item-height {
-	height: 120px;
-}
 
 .clients-image {
   display: block;
@@ -633,7 +627,7 @@ strong {
 }
 
 .clients-image:hover {
-  transform: scale(1.3);
+  transform: scale(1.5);
 }
 
 
@@ -1207,4 +1201,7 @@ strong {
 .buttoncontact{
   position: relative;
   left: 220px;
+}
+.rad{
+  border-radius: 150px;
 }
