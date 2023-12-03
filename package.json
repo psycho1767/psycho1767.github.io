@@ -1,5 +1,5 @@
 {
-  "homepage": "https://psycho1767.github.io/",
+  "homepage": "https://psycho1767.github.io/psycho1767.github.io",
 "scripts": {
 "predeploy": "npm run build",
 "deploy": "gh-pages -d build"
