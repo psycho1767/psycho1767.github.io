@@ -1,4 +1,9 @@
 {
+  "homepage": "https://psycho1767.github.io/",
+"scripts": {
+"predeploy": "npm run build",
+"deploy": "gh-pages -d build"
+},
   "name": "myapp",
   "version": "0.1.0",
   "private": true,
