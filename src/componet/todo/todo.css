@@ -1,0 +1,63 @@
+@import '/src/color.css';
+
+@keyframes befo {
+        0%{
+                width: 1000px;
+        }
+        100%{
+                width: 0px;
+        }
+}
+
+.todo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: var(--white);
+        border-radius: 4px;
+        padding: 1rem;
+}
+.todo_info{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 1rem;
+}
+.todo_little{
+        color: var(--black-2);
+        overflow: hidden;
+        display: flex;
+        overflow: hidden;
+        flex-direction: column;
+}
+.todo_name{
+        font-size: 1.4rem;
+        font-weight: 500;
+        word-break: break-all;
+}
+.todo_date{
+        font-size: 1.2rem;
+        font-weight: 300;
+        margin-bottom: -.2rem;
+
+}
+.todo_check{
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(222, 223, 225);
+        border-radius: 2px;
+        width: 25px;
+        height: 25px;
+}
+.pup{
+        transition: .3s ease-in;
+        background-color: rgb(100, 111, 240);
+}
+.whi{
+        fill: white !important;
+}
+.nowhi{
+        fill: rgb(222, 223, 225);
+}
